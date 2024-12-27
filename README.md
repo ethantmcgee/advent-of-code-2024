@@ -6,81 +6,81 @@ I have denoted where I looked up hints in the descriptions below.
 
 ## Day 1
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 1/5 (Part 1), 1/5 (Part 2)
 
-Overview: TBW
+Overview: As usual, both day one parts are fairly easy.  Part 1 is just adding two numbers, and part 2 is adding a set of numbers multiplied by a count.
 
 ## Day 2
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 1/5 (Part 1), 2/5 (Part 2)
 
-Overview: TBW
+Overview: Part 1 is just making sure that all increases and decreases are in tolerance.  Part 2 has you try to remove an element and try again.  I went with a brute force approach of remove each element in turn and try again.
 
 ## Day 3
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 1/5 (Part 1), 1/5 (Part 2)
 
-Overview: TBW
+Overview: Both parts today are regex pattern matching.
 
 ## Day 4
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 1/5 (Part 1), 2/5 (Part 2)
 
-Overview: TBW
+Overview: The algorithm today is a simple word search algorithm, part 2 just adds a trick that you are simultaneously searching for two words at the same time.
 
 ## Day 5
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 1/5 (Part 1), 2/5 (Part 2)
 
-Overview: TBW
+Overview: Part 1 is straightforward, no tricks.  Just simulate.  Part 2 is slightly worse, but you can use the page ordering rules to build a custom sort, then just run a sort on the list.
 
 ## Day 6
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 1/5 (Part 1), 3/5 (Part 2)
 
-Overview: TBW
+Overview: Part 1 has you acquire the path the robot will walk until it exits, simple simulation, nothing tricky.  Part 2 is slightly harder.  You want to form a loop.  Have the robot start walking, but stick an obstacle at each point along the path this time.  If the robot enters a loop, excellent, that counts, otherwise, remove that obstacle, it doesn't count.
 
 ## Day 7
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 1/5 (Part 1), 1/5 (Part 2)
 
-Overview: TBW
+Overview: Nothing tricky today in either part, just brute force the operand combinations possible.
 
 ## Day 8
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 5/5 (Part 1), 5/5 (Part 2)
 
-Overview: TBW
+Overview: The difficulty today comes only from the badly worded problem description.  I wound up going to reddit and found a few posts mentioning that you could just check the (-x, -y) straightline point, and that was sufficient.  For part 2, you have to check all of the z(-x, -y) points that are on the board.
 
 ## Day 9
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 3/5 (Part 1), 1/5 (Part 2)
 
-Overview: TBW
+Overview: I thought that part 1 was harder today than part 2.  Part 1 requires that you effectively simulate the individual swaps, so its brute force.  Part 2 on the otherhand is just fitting chunks, so you can do it all with some basic arithmetic.
 
 ## Day 10
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 2/5 (Part 1), 2/5 (Part 2)
 
-Overview: TBW
+Overview: Today was two different yet equally simple path walking algorithms.  Part 1 has you count the number of 9s that can be reached from a 0, and part 2 has you count all the ways you can reach those 9s from a 0.
 
 ## Day 11
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 2/5 (Part 1), 2/5 (Part 2)
 
-Overview: TBW
+Overview: Latternfish, its latternfish all the way down today.
 
 ## Day 12
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 3/5 (Part 1), 3/5 (Part 2)
 
-Overview: TBW
+Overview: I had a sneaky feeling that the number of unique sides would come into play so part a also solves part b as well.  I simply iterate over the islands, and then flood the island to grab all of the points that make up the island.  Once flooded, the island disappears so that it cannot be seen again.  Once the flooding has happened, then you can simply edge walk to get the length of each side, then you can count corners as you walk to determine the number of unique sides.  I adapted some corner counting code I found online in a stackoverflow post.
 
 ## Day 13
 
-Difficulty: X/5 (Part 1), X/5 (Part 2)
+Difficulty: 2/5 (Part 1), 2/5 (Part 2)
 
-Overview: TBW
+Overview: Do you remember solving systems of linear equations in high school?  Yeah both parts are literally just that.  I had to look at a few solutions on the daily reddit solutions thread to find an arithmetic mistake I made.
 
 ## Day 14
 
